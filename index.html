@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ryan and Sandy</title>
+  <meta name="author" content="Ryan Ponce">
+  <meta name="description" content="Ryan and Sandy are getting married. 💍">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <style>
+    @keyframes rainbow {
+      0% {
+        background-position: 0% 82%
+      }
+      50% {
+        background-position: 100% 19%
+      }
+      100% {
+        background-position: 0% 82%
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-section {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+    }
+
+    .emoji {
+      font-size: 5rem;
+    }
+
+    .rainbow {
+      animation: rainbow 60s ease infinite;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+      background-size: 1800% 1800%;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rainbow"></div>
+  <section class="main-section">
+    <p class="emoji">🤵🏻 ❤️ 👰🏽</p>
+  </section>
+</body>
+
+</html>
