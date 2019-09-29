@@ -29,6 +29,7 @@ h1 {
   font-size: 15rem;
   font-weight: 900;
   line-height: 1.25;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -53,11 +54,11 @@ a:hover {
 }
 
 nav {
-  float: right;
+  text-align: right;
 }
 
 .translation-link {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .ampersand {
