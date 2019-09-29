@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3"

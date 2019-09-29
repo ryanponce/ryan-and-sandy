@@ -1,0 +1,93 @@
+:root {
+  --primary: #d8d2cb;
+  --secondary: #1a1e21;
+  --tertiary: #60646a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--secondary);
+  font-size: 1vmin;
+}
+
+body {
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 120rem;
+}
+
+h1 {
+  font-size: 15rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 10rem;
+  font-weight: 900rem;
+  margin-bottom: 2rem;
+}
+
+p,
+address {
+  font-size: 6rem;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+nav {
+  float: right;
+}
+
+.translation-link {
+  font-size: 3rem;
+}
+
+.ampersand {
+  font-size: 6rem;
+}
+
+main {
+  margin-top: 20rem;
+}
+
+section {
+  margin-top: 20rem;
+}
+
+svg {
+  height: 20rem;
+  transition: transform 0.25s ease;
+  width: 20rem;
+}
+
+svg:hover {
+  transform: translateY(-1rem);
+}
+
+.block-text {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
