@@ -1,33 +1,17 @@
 {
   "name": "ryan-and-sandy",
-  "private": true,
-  "description": "Ryan Ponce and Sandra Alcantara are getting married.",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Ryan Ponce's and Sandra Alcantara's wedding website",
+  "main": "index.js",
+  "repository": "git@github.com:ryanponce/ryan-and-sandy.git",
+  "author": "Ryan Ponce <ryan@ponce.la>",
   "license": "MIT",
+  "private": false,
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "dependencies": {
-    "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.13.18",
-    "gatsby-plugin-styled-components": "^3.1.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ryanponce/ryan-and-sandy"
-  },
-  "bugs": {
-    "url": "https://github.com/ryanponce/ryan-and-sandy/issues"
+    "parcel-bundler": "^1.12.3"
   }
 }
