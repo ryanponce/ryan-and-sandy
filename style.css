@@ -57,6 +57,10 @@ nav {
   text-align: right;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .translation-link {
   font-size: 4rem;
 }
